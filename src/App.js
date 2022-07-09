@@ -3,6 +3,8 @@ import Filter from "./components/filter/Filter";
 
 import Nav from './components/nav/Nav';
 import Search from "./components/search/Search";
+import Meals from "./components/meals/Meals";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Search/>
         <Filter/>
       </div>
+      <Meals/>
     </div>
   );
 }
