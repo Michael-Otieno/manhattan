@@ -24,7 +24,7 @@ transform: matrix(0.99, -0.73, 0.11, 0.86, 0, 0);
   font-style: normal;
 font-weight: 600;
 font-size: 1.25rem;
-padding-right: 1rem;
+/* padding-right: 1rem; */
 color: #3F4F71;
 
 }
