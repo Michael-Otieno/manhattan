@@ -1,3 +1,4 @@
+import ImageSlider from '../imageSlider/ImageSlider';
 import './Meals.css';
 
 function Meals(){
@@ -7,6 +8,7 @@ function Meals(){
         <span>Seat No:</span>
         <input type='number' placeholder='000'/>
       </p>
+      <ImageSlider/>
     </div>
   )
 }
