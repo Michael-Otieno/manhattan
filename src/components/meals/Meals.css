@@ -1,0 +1,28 @@
+.seat-no{
+  text-align: right;
+  padding: 0 .5rem;
+}
+.seat-no span{
+font-weight: 600;
+font-size: 0.875rem;
+color: #3F4F71;
+padding-right: .5rem;
+}
+
+.seat-no input{
+  width: 83px;
+height: 28px;
+background: #3F4F71;
+border-radius: 5px;
+border: none;
+text-align: center;
+font-weight: 600;
+font-size: 18px;
+letter-spacing: .1rem;
+padding: 0;
+color: #09C3A3;
+
+}
+.seat-no input::placeholder{
+  color: #09C3A3;
+}
