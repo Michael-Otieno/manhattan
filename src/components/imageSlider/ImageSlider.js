@@ -8,9 +8,7 @@ import { useState } from "react";
 
 function ImageSlider() {
   const images = [meals,beverages,desert];
-
   const [activeImage, setActiveImage] = useState(0)
-  // console.log(images)
   function next(){
     if(activeImage < 2){
       setActiveImage(activeImage + 1)
