@@ -1,4 +1,4 @@
-import ImageSlider from '../imageSlider/ImageSlider';
+import ImageSlider from '../imageSlider/ImageSlider.js';
 import './Meals.css';
 
 function Meals(){
