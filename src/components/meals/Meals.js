@@ -1,3 +1,4 @@
+import Footer from "../footer/Footer.js";
 import ImageSlider from "../imageSlider/ImageSlider.js";
 import "./Meals.css";
 
@@ -85,7 +86,6 @@ function Meals() {
           </ul>
         </div>
       </div>
-
       {/* deserts */}
       <div className="deserts-list">
         <div className="deserts-on-list">
@@ -114,8 +114,7 @@ function Meals() {
           </ul>
         </div>
       </div>
-
-     
+      <Footer/>     
     </div>
   );
 }
