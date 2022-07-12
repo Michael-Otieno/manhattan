@@ -8,7 +8,6 @@ import meals from "../../imgs/meals.png";
 
 function Meals() {
 
-
   return (
     <div className="meals">
       <p className="seat-no">
