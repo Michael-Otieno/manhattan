@@ -6,6 +6,8 @@ import instagram from "../../imgs/ig.png";
 import facebook from "../../imgs/facebook.png";
 import tiktok from "../../imgs/tiktok.png";
 
+import twitter from "../../imgs/twitter.png";
+
 function Footer() {
   return (
     <div className="footer">
@@ -38,6 +40,9 @@ function Footer() {
             </li>
             <li>
               <img src={tiktok} alt="" /><span>- TikTok</span>
+            </li>
+            <li>
+              <img src={twitter} alt="" /><span>- Twitter</span>
             </li>
           </ul>
         </div>
