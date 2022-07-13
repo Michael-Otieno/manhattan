@@ -4,8 +4,8 @@
 
 .search input{
   padding-left: .5rem;
-  width: 156px;
-height: 30px;
+  width: 9.75rem;
+height: 1.875rem;
 background: #FFFFFF;
 border: 1px solid #3F4F71;
 border-radius: 5px;
@@ -23,4 +23,21 @@ border-radius: 5px;
 
   top: 15%;
   right: .5%;
+}
+
+@media only screen and (min-width:1000px) {
+  .search input{
+    width: 22.813rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+
+  }
+  .search img{
+    width: 2rem;
+    height: 2rem;
+
+    top: 16%;
+    right: .8%;
+  }
+
 }
