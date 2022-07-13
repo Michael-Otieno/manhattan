@@ -70,7 +70,7 @@ transform: matrix(0.99, -0.73, 0.11, 0.86, 0, 0);
   list-style: none;
     font-weight: 300;
     font-size: 0.875rem;
-    line-height: 1.5rem;
+    line-height: 1rem;
     color: white;
 }
 .footer-online img{
