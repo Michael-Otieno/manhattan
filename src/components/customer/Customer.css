@@ -309,3 +309,22 @@ line-height:2.5rem;
 color: #FFFFFF;
 
 }
+
+@media only screen and (min-width:1000px){
+  .customer{
+    display: flex;
+
+  }
+
+  .order-num-details{
+    width: 30%;
+
+  }
+  .customer-meals-ordered{
+    width: 65%;
+    margin-left: 1.2rem;
+  }
+
+
+
+}
