@@ -1,0 +1,411 @@
+.meals{
+  width: 100%;
+  overflow: hidden;
+}
+
+.seat-no{
+  text-align: right;
+  padding: 0 .5rem;
+}
+.seat-no span{
+font-weight: 600;
+font-size: 0.875rem;
+color: #3F4F71;
+padding-right: .5rem;
+}
+
+.seat-no input{
+  width: 4rem;
+height: 1.75rem;
+background: #3F4F71;
+border-radius: 5px;
+border: none;
+text-align: center;
+font-weight: 600;
+font-size: 18px;
+letter-spacing: .1rem;
+padding: 0;
+color: #09C3A3;
+
+}
+.seat-no input::placeholder{
+  color: #09C3A3;
+}
+
+.meals-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.3rem;
+  margin-bottom: 5rem;
+  padding: 0 0.5rem;
+}
+.meals-on-list h3{
+ margin: 0;
+ font-weight: 500;
+font-size: 14px;
+color: #3F4F71;
+margin-bottom: .5rem;
+
+}
+.meals-on-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  width: 11.875rem;
+
+  
+}
+.meals-on-list li{
+  list-style: none;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.6rem;
+  color: #000000;
+}
+
+.meals-price-list h3{
+  margin: 0;
+  font-weight: 500;
+font-size: 0.875rem;
+color: #3F4F71;
+margin-bottom: .5rem;
+
+}
+.meals-price-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  
+}
+
+.meals-price-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+
+color: #000000;
+}
+
+.meals-order-btn-list{
+  margin: 0;
+}
+.meals-order-btn-list h3{
+  margin: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+font-size: 14px;
+color: #3F4F71;
+}
+.meals-order-btn-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+
+.meals-order-btn-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+color: #000000;
+}
+.meals-order-btn-list button{
+padding: .2rem .5rem;
+border: none;
+background: #EBA901;
+border-radius: 5px;
+
+font-weight: 400;
+font-size: 14px;
+
+color: #FFFFFF;
+
+}
+
+/* beverages */
+.beverages-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.3rem;
+  padding: 0 0.5rem;
+}
+
+.beverages-on-list h3{
+  margin: 0;
+  font-weight: 500;
+ font-size: 14px;
+ color: #3F4F71;
+ margin-bottom: .5rem;
+}
+.beverages-on-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+.beverages-on-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+color: #000000;
+}
+.beverages-price-list h3{
+  margin: 0;
+  font-weight: 500;
+ font-size: 0.875rem;
+ color: #3F4F71;
+ margin-bottom: .5rem;
+}
+.beverages-price-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+.beverages-price-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+color: #000000;
+}
+.beverages-order-btn-list h3{
+  margin: 0;
+  font-weight: 500;
+ font-size: 0.875rem;
+ color: #3F4F71;
+ margin-bottom: .5rem;
+}
+.beverages-order-btn-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+.beverages-order-btn-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+color: #000000;
+}
+
+.beverages-order-btn-list button{
+  padding: .2rem .5rem;
+border: none;
+background: #EBA901;
+border-radius: 5px;
+
+font-weight: 400;
+font-size: 0.875rem;
+color: #FFFFFF;
+}
+
+/* deserts */
+.deserts-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 1.3rem;
+  padding: 0 0.5rem;
+}
+.deserts-on-list h3{ 
+  margin: 0;
+  font-weight: 500;
+ font-size: 14px;
+ color: #3F4F71;
+ margin-bottom: .5rem;
+}
+.deserts-on-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  width: 11.875rem;
+}
+.deserts-on-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+color: #000000;
+}
+.desert-price-list h3{
+  margin: 0;
+  font-weight: 500;
+ font-size: 14px;
+ color: #3F4F71;
+ margin-bottom: .5rem;
+}
+
+.desert-price-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+.desert-price-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+color: #000000;
+}
+
+.desert-order-btn-list h3{
+  margin: 0;
+  font-weight: 500;
+ font-size: 14px;
+ color: #3F4F71;
+ margin-bottom: .5rem;
+}
+.desert-order-btn-list ul{
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+.desert-order-btn-list li{
+  list-style: none;
+  font-weight: 300;
+font-size: 0.875rem;
+line-height: 1.6rem;
+color: #000000;
+}
+.desert-order-btn-list button{
+  padding: .2rem .5rem;
+border: none;
+background: #EBA901;
+border-radius: 5px;
+
+font-weight: 400;
+font-size: 0.875rem;
+color: #FFFFFF;
+}
+
+.desktop-meals{
+  display: block;
+  width: 100%;
+}
+
+.side-imgs{
+  display: none;
+}
+@media only screen and (min-width: 1000px){
+  .seat-no{
+    margin-right: 4rem;
+  }
+
+
+.desktop-meals{
+    display: grid;
+    grid-template-columns: 25% 70%;
+}
+.side-imgs{
+  display: block;
+  margin-left: 1.2rem;
+  margin-top: 1.3rem;
+}
+.side-imgs img{
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.meals-on-list h3{
+  font-size: 1.25rem;
+}
+.meals-on-list li{
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.meals-price-list h3{
+  font-size: 1.25rem;
+}
+.meals-price-list li{
+  font-size: 1rem;
+  line-height: 2rem;
+
+}
+
+.meals-order-btn-list h3{
+font-size: 1.25rem;
+
+}
+
+.meals-order-btn-list li{
+font-size: 1rem;
+line-height: 2rem;
+
+}
+.meals-order-btn-list button{
+padding: .4rem 1rem;
+font-size: 1rem;
+
+}
+
+.beverages-list{
+  margin-bottom: 3rem;
+}
+
+.beverages-on-list h3{
+  font-size: 1.25rem;
+}
+
+.beverages-on-list li{
+  font-size: 1rem;
+}
+
+.beverages-price-list h3{
+ font-size: 1.25rem;
+}
+.beverages-price-list li{
+  font-size: 1rem;
+ }
+
+.beverages-order-btn-list h3{
+  font-size: 1.25rem;
+}
+.beverages-order-btn-list li{
+  font-size: 1rem;
+line-height: 2rem;
+}
+
+.beverages-order-btn-list button{
+  padding: .4rem 1rem;
+  font-size: 1rem;
+}
+
+.deserts-on-list h3{ 
+  font-size: 1.25rem;
+}
+
+.deserts-on-list li{
+ font-size: 1rem;
+}
+
+.desert-price-list h3{
+ font-size: 1.25rem;
+}
+
+.desert-price-list li{
+font-size: 1rem;
+}
+
+.desert-order-btn-list h3{
+  font-size: 1.25rem;
+}
+
+.desert-order-btn-list li{
+font-size: 1rem;
+line-height: 2rem;
+}
+.desert-order-btn-list button{
+  padding: .4rem 1rem;
+font-size: 1rem;
+
+}
+
+
+}
+
+
+
+

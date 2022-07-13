@@ -1,0 +1,79 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 1rem;
+  padding: 1.2rem .5rem;
+  border-top: 1px solid #3F4F71;
+  border-bottom: 1px solid #3F4F71;
+
+}
+.nav p{
+  margin: 0;
+  padding: 0;
+font-style: normal;
+font-weight: 300;
+font-size: 0.75rem;
+height: 2.314rem;
+width: 4.453rem;
+color: #3F4F71;
+transform: matrix(0.99, -0.73, 0.11, 0.86, 0, 0);
+}
+.nav h1{
+  margin: 0;
+  font-style: normal;
+font-weight: 600;
+font-size: 1.25rem;
+color: #3F4F71;
+
+}
+.basket{
+  position: relative;
+}
+.basket img{
+  height: 2.5rem;
+  width: 2.5rem;
+
+}
+.basket span{
+  position: absolute;
+padding: .1rem;
+right: .1rem;
+
+background: #EBA901;
+border-radius: 50%;
+
+font-weight: 500;
+font-size: .8rem;
+color: #FFFFFF;
+text-align: center;
+
+}
+
+@media only screen and (min-width:1000px) {
+  .nav p{
+    font-size: 1rem;
+  }
+  .nav{
+    margin-block: 1.6rem;
+    padding: 1.4rem .5rem;
+    padding-right: 4rem;
+  }
+  .nav h1{
+    font-size: 1.875rem;
+    margin: 0;
+  }
+
+  .basket img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0;
+  }
+  .basket span{
+    padding: .15rem .2rem;
+    top: 2%;
+    font-size: 1rem;
+  }
+
+
+}

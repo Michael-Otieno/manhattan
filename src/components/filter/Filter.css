@@ -1,0 +1,21 @@
+.filter{
+  height: 28.571428298950195px;
+width: 95px;
+border-radius: 5px;
+border: 1px solid #3F4F71;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 400;
+font-size: 14px;
+color: #3F4F71;
+
+
+}
+
+@media only screen and (min-width:1000px) {
+  .filter{
+    margin-right: 4rem;
+  }
+}
