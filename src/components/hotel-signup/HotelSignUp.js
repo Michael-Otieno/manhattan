@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function HotelSignUp() {
   return (
     <div className="signup">
-      <div>
+      <form>
         <h4>Sign Up</h4>
         <input type="text" placeholder="Company Name" />
         <br />
@@ -21,7 +21,7 @@ function HotelSignUp() {
             <Link to="/sign-in">Sign in</Link>
           </p>
         </div>
-      </div>
+      </form>
     </div>
   );
 }
