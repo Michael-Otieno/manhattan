@@ -14,7 +14,7 @@ function Nav() {
           <img src={basket} alt="" />
         </Link>
         <span>3</span>
-        <Link to="/hotel">
+        <Link to="/hotel-signup">
         <button className='staff'>Staff</button>
         </Link>
         
