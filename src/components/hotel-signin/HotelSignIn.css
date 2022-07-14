@@ -1,0 +1,73 @@
+.sign-in{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #3F4F71;
+border-radius: 10px;
+line-height: 2rem;
+padding: .8rem 0;
+width: 90%;
+margin-top: 1.5rem;
+
+margin-left: auto;
+margin-right: auto;
+
+}
+.sign-in h4{
+  margin: 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #3F4F71;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.sign-in input{
+  width: 282.62px;
+height: 35px;
+background: #FFFFFF;
+border: 1px solid #3F4F71;
+border-radius: 5px;
+margin-bottom:1.5rem;
+padding-left: .5rem;
+color: #3F4F71;
+font-weight: 400;
+font-size: 18px;
+}
+::placeholder{
+color: #3F4F71;
+font-weight: 400;
+font-size: 18px;
+}
+.sign-in-btn{
+  text-align: center;
+
+}
+.sign-in-btn button{
+  width: 173px;
+height: 35px;
+background: #EBA901;
+border-radius: 5px;
+border: none;
+outline: none;
+color: #FFFFFF;
+font-weight: 500;
+}
+.sign-in-btn p{
+  font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.sign-in-btn a{
+  color: #EBA901;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width:1000px){
+  .sign-in{
+    width: 30%;
+  }
+}
