@@ -326,6 +326,15 @@ color: #FFFFFF;
     margin-left: 1.2rem;
   }
 
+  .customer-meals-order-btn-list button{
+    padding: 6px;
+  }
+  .total-customer-meals-order-btn-list button{
+    padding: 6px;
+  }
+  .back-menu-btn button{
+    padding: 6px;
+  }
 
 
 }
