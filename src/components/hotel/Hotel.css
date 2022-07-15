@@ -1,0 +1,67 @@
+.hotel{
+  width: 100%;
+}
+.hotel-table{
+  display: flex;
+  justify-content: center;
+}
+.hotel-menu-table{
+  width: 100%;
+  text-align: left;
+}
+.hotel-menu-table-header th{
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #3F4F71;
+}
+.hotel-menu-table-data td{
+  font-weight: 300;
+  font-size: 0.875rem;
+  color: #000000;
+}
+.hotel-menu-table-data button{
+  font-size: 0.875rem;
+  padding: 7px;
+  font-weight: 700;
+}
+.add-menu-btn{
+  text-align: right;
+  margin-top: 3rem;
+}
+.add-menu-btn button{
+    background: #09C3A3;
+    border: none;
+    outline: none;
+    /* padding: .4rem .8rem; */
+    border-radius: 5px;
+    color: #ffffff;
+    margin-right: 3px;
+
+  font-size: 0.875rem;
+  padding: 7px;
+  font-weight: 700;
+}
+.add{
+  background: #EBA901;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.remove{
+  background: #EB3B3B;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.desert{
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (min-width:1000px){
+  .add-menu-btn button{
+    margin-right: 4rem;
+  }
+}
