@@ -112,11 +112,11 @@ line-height: 1.6rem;
 color: #000000;
 }
 .meals-order-btn-list button{
-padding: .2rem .5rem;
+/* padding: .2rem .5rem; */
 border: none;
 background: #EBA901;
 border-radius: 5px;
-
+margin-bottom: 2px;
 font-weight: 400;
 font-size: 14px;
 
@@ -192,10 +192,11 @@ color: #000000;
 }
 
 .beverages-order-btn-list button{
-  padding: .2rem .5rem;
+  /* padding: .2rem .5rem; */
 border: none;
 background: #EBA901;
 border-radius: 5px;
+margin-bottom: 2px;
 
 font-weight: 400;
 font-size: 0.875rem;
@@ -271,11 +272,11 @@ line-height: 1.6rem;
 color: #000000;
 }
 .desert-order-btn-list button{
-  padding: .2rem .5rem;
+  /* padding: .2rem .5rem; */
 border: none;
 background: #EBA901;
 border-radius: 5px;
-
+margin-bottom: 2px;
 font-weight: 400;
 font-size: 0.875rem;
 color: #FFFFFF;
@@ -336,8 +337,9 @@ line-height: 2rem;
 
 }
 .meals-order-btn-list button{
-padding: .4rem 1rem;
-font-size: 1rem;
+  font-size: .8rem;
+  font-weight: 700;
+margin-bottom: 2px;
 
 }
 
@@ -369,8 +371,10 @@ line-height: 2rem;
 }
 
 .beverages-order-btn-list button{
-  padding: .4rem 1rem;
-  font-size: 1rem;
+  /* padding: .4rem 1rem; */
+  margin-bottom: 2px;
+  font-size: .8rem;
+  font-weight: 700;
 }
 
 .deserts-on-list h3{ 
@@ -398,8 +402,10 @@ font-size: 1rem;
 line-height: 2rem;
 }
 .desert-order-btn-list button{
-  padding: .4rem 1rem;
-font-size: 1rem;
+  /* padding: .4rem 1rem; */
+font-size: .8rem;
+font-weight: 700;
+margin-bottom: 2px;
 
 }
 

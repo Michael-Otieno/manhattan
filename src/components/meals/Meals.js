@@ -7,10 +7,13 @@ import meals from "../../imgs/meals.png";
 
 import Search from "../search/Search.js";
 import Filter from "../filter/Filter.js";
+import Nav from "../nav/Nav";
+
 
 function Meals() {
   return (
     <div className="meals">
+      <Nav/>
       <div className="search-filter">
         <Search />
         <Filter />
