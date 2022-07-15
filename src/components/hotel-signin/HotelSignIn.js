@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom';
 
 function HotelSignIn(){
   return (
-    <div className="sign-in">
+    <div className='center-form'>
+      <div className="sign-in">
       <form>
         <h4>Sign In</h4>
         <input type="email" placeholder="Email" />
@@ -19,6 +20,8 @@ function HotelSignIn(){
         </div>
       </form>
     </div>
+    </div>
+    
   )
 }
 

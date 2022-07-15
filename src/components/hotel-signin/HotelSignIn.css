@@ -1,8 +1,8 @@
 .sign-in{
   display: flex;
   justify-content: center;
-  align-items: center;
-box-sizing: border-box;
+  /* align-items: center; */
+/* box-sizing: border-box; */
 background: #FFFFFF;
 border: 1px solid #3F4F71;
 border-radius: 10px;
@@ -69,5 +69,13 @@ color: #000000;
 @media only screen and (min-width:1000px){
   .sign-in{
     width: 30%;
+    margin-top: 0;
   }
+
+.center-form{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
