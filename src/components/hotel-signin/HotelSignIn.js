@@ -11,9 +11,11 @@ function HotelSignIn(){
         <br />
         <input type="password" placeholder="Password" />
         <br />
-        <div className="sign-in-btn">
-          <button>Sign Up</button>
-          <p>
+        <div className="sign-in-div">
+          <button className="sign-in-btn">
+            <Link to='/hotel'>Sign In</Link>
+          </button>
+          <p className="sign-in-p">
             Not registered?
             <Link to="/hotel-signup">Sign up</Link>
           </p>

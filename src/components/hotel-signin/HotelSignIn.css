@@ -41,11 +41,11 @@ color: #3F4F71;
 font-weight: 400;
 font-size: 18px;
 }
-.sign-in-btn{
+.sign-in-div{
   text-align: center;
 
 }
-.sign-in-btn button{
+.sign-in-btn{
   width: 173px;
 height: 35px;
 background: #EBA901;
@@ -55,13 +55,19 @@ outline: none;
 color: #FFFFFF;
 font-weight: 500;
 }
-.sign-in-btn p{
+.sign-in-btn a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.sign-in-p{
   font-weight: 300;
 font-size: 18px;
 line-height: 21px;
 color: #000000;
 }
-.sign-in-btn a{
+.sign-in-p a{
   color: #EBA901;
   text-decoration: underline;
 }
