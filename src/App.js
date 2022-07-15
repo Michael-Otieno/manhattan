@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Nav from './components/nav/Nav';
+// import Nav from './components/nav/Nav';
 
 import Meals from "./components/meals/Meals";
 import Customer from "./components/customer/Customer";
@@ -13,7 +13,7 @@ import HotelSignIn from "./components/hotel-signin/HotelSignIn";
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      {/* <Nav/> */}
       
       <Routes>
         <Route path="/" element={<Meals/>} />
