@@ -2,10 +2,13 @@ import "./Customer.css";
 
 import { Link } from "react-router-dom";
 import Footer from "../footer/Footer";
+import Nav from "../nav/Nav";
+
 
 function Customer() {
   return (
     <div>
+      <Nav/>
       <div className="customer">
         {/* meals */}
         <div className="customer-meals-ordered">

@@ -10,13 +10,14 @@ function Nav() {
       <p>Manhattan chicken</p>
       <h1>Menu List</h1>
       <div className='basket'>
-        {/* <Link to='/customer'>
-        <img src={basket} alt="" />
-        <Link/> */}
          <Link to="/customer">
           <img src={basket} alt="" />
         </Link>
         <span>3</span>
+        <Link to="/hotel-signup">
+        <button className='staff'>Staff</button>
+        </Link>
+        
       </div>
     </nav>
   );
