@@ -329,26 +329,21 @@ margin-bottom: 2px;
 padding: 6px;
 
 }
-
 .beverages-list{
   margin-bottom: 3rem;
 }
-
 .beverages-on-list h3{
   font-size: 1.25rem;
 }
-
 .beverages-on-list li{
   font-size: 1rem;
 }
-
 .beverages-price-list h3{
  font-size: 1.25rem;
 }
 .beverages-price-list li{
   font-size: 1rem;
  }
-
 .beverages-order-btn-list h3{
   font-size: 1.25rem;
 }
@@ -356,34 +351,27 @@ padding: 6px;
   font-size: 1rem;
 line-height: 2rem;
 }
-
 .beverages-order-btn-list button{
   padding: 6px;
   margin-bottom: 2px;
   font-size: .8rem;
   font-weight: 700;
 }
-
 .deserts-on-list h3{ 
   font-size: 1.25rem;
 }
-
 .deserts-on-list li{
  font-size: 1rem;
 }
-
 .desert-price-list h3{
  font-size: 1.25rem;
 }
-
 .desert-price-list li{
 font-size: 1rem;
 }
-
 .desert-order-btn-list h3{
   font-size: 1.25rem;
 }
-
 .desert-order-btn-list li{
 font-size: 1rem;
 line-height: 2rem;
